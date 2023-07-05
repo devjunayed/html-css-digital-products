@@ -41,7 +41,7 @@
   color: white;
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 80px;
 }
