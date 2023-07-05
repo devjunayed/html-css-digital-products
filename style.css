@@ -38,6 +38,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 10px 80px;
 }
 
 .title{
@@ -60,4 +61,17 @@
 .btn:hover{
     cursor: pointer;
     background-color: lightcoral;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-title{
+    text-align: center;
+    padding: 30px 0px;
+}
+.about-info> h1{
+    margin-bottom: 20px;
 }
