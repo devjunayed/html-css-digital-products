@@ -35,13 +35,16 @@
 .banner-img {
   width: 300px;
 }
+.banner-text{
+    width: 70%;
+}
 .banner-container {
   background: url("./images/background.png"),
     linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
   color: white;
   height: 100vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 10px 80px;
 }
